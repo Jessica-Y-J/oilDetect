@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\detectEdge">
+      <UniqueIdentifier>{38470c83-8faa-4ad3-934a-4eb0b27a308e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\detectEdge">
+      <UniqueIdentifier>{c91e83d3-98f3-486c-8cfb-0466bba40408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\segment">
+      <UniqueIdentifier>{aef82d39-3c70-4459-b5c0-d30be7226bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\segment">
+      <UniqueIdentifier>{4fa61ee9-2ca7-43df-b3d4-092e5395795c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\detectRegions">
+      <UniqueIdentifier>{00e27c82-ce6b-4a14-ab9c-43b8a98af662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\detectRagions">
+      <UniqueIdentifier>{3cae3de8-e283-40e9-81df-77f8b3944268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgProcessor">
+      <UniqueIdentifier>{154dce33-07a4-4418-8074-ba5caf2b98ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\imgProcessor">
+      <UniqueIdentifier>{9a38df82-9f21-423f-b350-cbdbb251c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\classifier">
+      <UniqueIdentifier>{d545cb2a-6d02-4ae1-9a2f-ac0b76e6d4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\classifier">
+      <UniqueIdentifier>{4e1cb2d9-e659-4d12-b9c0-50137fea18f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\InsDetect">
+      <UniqueIdentifier>{6a372438-d7b2-4990-9d00-b98986263fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\InsDetect">
+      <UniqueIdentifier>{f9c31a98-7501-49af-8a0c-9fddca888194}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultOfDetect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectContext.cpp">
+      <Filter>源文件\detectEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectEdge.cpp">
+      <Filter>源文件\detectEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectEdgeThree.cpp">
+      <Filter>源文件\detectEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectEdgeTwo.cpp">
+      <Filter>源文件\detectEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentBase.cpp">
+      <Filter>源文件\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdOtsu.cpp">
+      <Filter>源文件\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentContext.cpp">
+      <Filter>源文件\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="dllfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectValueRegions.cpp">
+      <Filter>源文件\detectRagions</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectStickImg.cpp">
+      <Filter>源文件\detectRagions</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectMetalImg.cpp">
+      <Filter>源文件\detectRagions</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectCircleImg.cpp">
+      <Filter>源文件\detectRagions</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectRagionsContext.cpp">
+      <Filter>源文件\detectRagions</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgProcessor.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalImgProcessor.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleImgProcessor.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="StickImgProcessor.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgProcessorContext.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="classifier.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="InsDetector.cpp">
+      <Filter>源文件\InsDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="OnticImgProcessor.cpp">
+      <Filter>源文件\imgProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdetector_ver3.cpp">
+      <Filter>源文件\InsDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="b2detector.cpp">
+      <Filter>源文件\InsDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="DialImgProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultOfDetect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectContext.h">
+      <Filter>头文件\detectEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectEdge.h">
+      <Filter>头文件\detectEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectEdgeThree.h">
+      <Filter>头文件\detectEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectEdgeTwo.h">
+      <Filter>头文件\detectEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentBase.h">
+      <Filter>头文件\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdOtsu.h">
+      <Filter>头文件\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentContext.h">
+      <Filter>头文件\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="dllfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectValueRegions.h">
+      <Filter>头文件\detectRegions</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectStickImg.h">
+      <Filter>头文件\detectRegions</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectMetalImg.h">
+      <Filter>头文件\detectRegions</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectCircleImg.h">
+      <Filter>头文件\detectRegions</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectRagionsContext.h">
+      <Filter>头文件\detectRegions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgProcessor.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalImgProcessor.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleImgProcessor.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="StickImgProcessor.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgProcessorContext.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="classifier.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="InsDetector.h">
+      <Filter>头文件\InsDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="OnticImgProcessor.h">
+      <Filter>头文件\imgProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdetector_ver3.h">
+      <Filter>头文件\InsDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="b2detector.h">
+      <Filter>头文件\InsDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="DialImgProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
